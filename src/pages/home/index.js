@@ -6,6 +6,17 @@ import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 
 export const Home = () => {
+   const fileId = "1vXeBjVfO3_bBo4Tdwk4oVhcJ5e1uUAqu"; // Replace with your Google Drive file ID
+  const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = downloadUrl;
+    link.setAttribute("download", "Resume.pdf"); // Optional: sets the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <HelmetProvider>
       <section id="home" className="home">
@@ -39,18 +50,18 @@ export const Home = () => {
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
                 <div className="intro_btn-action pb-5">
-                  <Link to="/portfolio" className="text_2">
-                    <div id="button_p" className="ac_btn btn ">
-                      My Portfolio
+                
+                    <div id="button_p" onClick={handleDownload} className=" ac_btn btn ">
+                      My Resume
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
                     </div>
-                  </Link>
+                  
                   <Link to="/contact">
-                    <div id="button_h" className="ac_btn btn">
+                    <div id="button_h" className="border ac_btn btn">
                       Contact Me
-                      <div className="ring one"></div>
+                      <div className="ring  one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
                     </div>

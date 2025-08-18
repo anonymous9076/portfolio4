@@ -1,4 +1,4 @@
-const logotext = "Tushar";
+const logotext = "Tushar Kumar";
 const meta = {
     title: "Tushar Kumar",
     description: "I’m Tushar Kumar Web Develper_ Full stack devloper,currently working in BoffinBlocks",
@@ -46,13 +46,16 @@ const skills = [{
         name: "CSS/TAILWIND CSS/BOOTSTRAP CSS",
         value: 99,
     },
-   
     {
         name: "Javascript",
-        value: 99,
+        value: 90,
     },
     {
         name: "React JS",
+        value: 90,
+    },
+    {
+        name: "Next JS",
         value: 90,
     },
     {
@@ -61,7 +64,7 @@ const skills = [{
     },
     {
         name: "EXPRESS JS",
-        value: 60,
+        value: 70,
     },
 {
         name: "MONGO DB",
@@ -77,11 +80,11 @@ const skills = [{
     },
     {
         name: "TYPESCRIPT",
-        value: 75,
+        value: 85,
     },
     {
         name: "C/C++",
-        value: 60,
+        value: 50,
     },
 ];
 
@@ -104,6 +107,16 @@ const services = [{
 
 const dataportfolio = [
     {
+        img: "./images/chatbot.png ",
+        description: " ",
+        link: "#",
+    },
+    {
+        img: "./images/frost.png ",
+        description: " ",
+        link: "https://frost-master.vercel.app",
+    },
+    {
         img: "./images/brave_screenshot_dgnotes.vercel.app.png ",
         description: " ",
         link: "https://dgnotes.vercel.app",
@@ -111,7 +124,7 @@ const dataportfolio = [
     {
         img: " ./images/brave_screenshot_www.gsonsindia.in.png",
         description: " ",
-        link: "https://gsonsindia.in ",
+        link: "https://gsonsindia.com ",
     },
     {
         img: "./images/brave_screenshot_69airline.vercel.app.png",
@@ -124,11 +137,7 @@ const dataportfolio = [
         link: "https://bdslogistics.vercel.app ",
     },
   
-    {
-        img: " ./images/brave_screenshot_ellocent.vercel.app.png",
-        description: " ",
-        link: " https://ellocent.vercel.app",
-    },
+   
     {
         img: "./images/brave_screenshot_freezy.vercel.app.png ",
         description: " ",
@@ -144,11 +153,7 @@ const dataportfolio = [
         description: " ",
         link: "https://osm-mosam.netlify.app",
     },
-    {
-        img: "./images/brave_screenshot_piratestore.netlify.app.png ",
-        description: " ",
-        link: " https://piratestore.netlify.app",
-    },
+   
     {
         img: " ./images/brave_screenshot_therealplace.netlify.app.png",
         description: " ",

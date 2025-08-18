@@ -1,5 +1,5 @@
 .po_items_ho {
-    column-width: 15em;
+    /* column-width: 15em;
     -moz-column-width: 15em;
     -webkit-column-width: 15em;
     column-gap: 4rem;
@@ -8,12 +8,17 @@
     display: flex;
     flex-direction: column;
     padding: 0 0 2rem 0;
-    box-sizing: border-box;
+    box-sizing: border-box; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
 }
 
 .po_item {
     /* display: inline-block; */
-    width: 80dvw;
+    aspect-ratio: 2/1;
+    width: fit;
     text-align: center;
     margin: 0.5rem auto;
     position: relative;
@@ -21,7 +26,7 @@
     border: 1px solid var(--secondary-color);
     transition: 0.3s ease;
     font-size: 0;
-    height: 70dvh;
+    /* height: 70dvh; */
     box-sizing: border-box !important;
    
 }
@@ -83,4 +88,12 @@
 
 .po_item .content a:hover {
     text-decoration: none;
+}
+
+@media screen and (max-width:600px) {
+    .po_items_ho {
+
+    grid-template-columns: 1fr ;
+ 
+}
 }

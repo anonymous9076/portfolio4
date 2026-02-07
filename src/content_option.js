@@ -1,171 +1,220 @@
 const logotext = "Tushar Kumar";
 const meta = {
     title: "Tushar Kumar",
-    description: "I’m Tushar Kumar Web Develper_ Full stack devloper,currently working in BoffinBlocks",
+    description: "I'm Tushar Kumar, Full Stack Developer with 1.5+ years of experience, currently working at BoffinBlocks",
 };
 
 const introdata = {
-    title: "I’m Tushar Kumar",
+    title: "I'm Tushar Kumar",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
         third: "I develop Highly Interactive WebPages",
     },
-    description: "Crafting digital experiences, one line of code at a time. Empowering your online presence with innovation and precision.",
+    description: "Full Stack Developer building scalable, user-focused web applications. From responsive UIs to backend architecture.",
     your_img_url: "./images/myimg.jpeg",
 };
 
 const dataabout = {
-    title: "Abit about my self",
-    aboutme: `Myself Tushar kumar, I'm 22years old and I'm B.C.A graduate from GNDU university Affilated college ,SL bawa dav college, Batala. I am skilled web developer and a freelancer I build many project by my own to develop my skills and experience.`, 
-    aboutme2:"Outcome-focused web developer with good experience seeking a challenging position to leverage my expertise in front-end and back-end development. Committed to staying up-to-date with emerging web technologies and dedicated to delivering high- quality, responsive, and scalable web solutions that meet client needs"
+    title: "A bit about myself",
+    aboutme: `I'm Tushar Kumar, a Full Stack Developer with 1.5+ years of hands-on experience building scalable, user-focused web applications. I work across the full development lifecycle — from designing responsive UIs to implementing backend logic and database architecture.`,
+    aboutme2: "I'm comfortable handling solo projects, team-based development, and freelance work, always focusing on clean code and practical solutions. I've built and contributed to multiple real-world projects including e-commerce platforms, AI-powered chatbots, educational & portfolio websites, and admin dashboards. Currently working as a Software Developer at BoffinBlocks, where I actively use Angular, TypeScript, and modern web development practices to deliver production-ready solutions."
 };
-const worktimeline = [{
-        jobtitle: "Product Designer",
-        where: "Gsons India",
-        date: "1Mar - 30May 2024",
+
+const worktimeline = [
+    {
+        jobtitle: "Software Developer",
+        where: "BoffinBlocks",
+        date: "Sep 2024 - Present · 1 yr 6 mos",
+        location: "Mohali district · On-site",
+        employmentType: "Full-time",
+        description: "Working as a Software Developer contributing to the development and maintenance of web applications.",
+        responsibilities: [
+            "Developing frontend features using Angular & TypeScript",
+            "Building reusable UI components and improving application performance",
+            "Collaborating with team members to implement business requirements",
+            "Writing clean, maintainable, and scalable code"
+        ],
+        techStack: ["Next.js", "TypeScript", "JavaScript", "MongoDB", "Tailwind CSS", "React.js", "MySQL"]
     },
     {
-        jobtitle: "Full Stack Developer",
-        where: "bds Logistics",
-        date: "7Jul - 31Aug 2024",
+        jobtitle: "Freelance Developer",
+        where: "Self-Employed",
+        date: "2023 - Present",
+        location: "Remote",
+        employmentType: "Freelance",
+        description: "Building custom web applications for clients worldwide. Specializing in full-stack development with React, Next.js, Node.js, and MongoDB.",
+        responsibilities: [
+            "Delivering end-to-end web solutions for diverse clients",
+            "Managing project timelines and client communications",
+            "Building e-commerce platforms and business applications"
+        ],
+        techStack: ["React.js", "Next.js", "Node.js", "MongoDB", "Express.js", "Tailwind CSS"]
     },
-    {
-        jobtitle: "Jr Web Developer",
-        where: "ItSmith Software solution",
-        date: "9Sep - Still Serving",
-    },
-   
 ];
 
-const skills = [{
-        name: "HTML5",
-        value: 99,
-    },
+const skills = [
     {
-        name: "CSS/TAILWIND CSS/BOOTSTRAP CSS",
-        value: 99,
-    },
-    {
-        name: "Javascript",
+        name: "JavaScript",
         value: 90,
     },
     {
-        name: "React JS",
-        value: 90,
-    },
-    {
-        name: "Next JS",
-        value: 90,
-    },
-    {
-        name: "NODE JS",
-        value: 75,
-    },
-    {
-        name: "EXPRESS JS",
-        value: 70,
-    },
-{
-        name: "MONGO DB",
-        value: 70,
-    },
-    {
-        name: "MYSQL",
-        value: 65,
-    },
-    {
-        name: "ANGULAR TS",
-        value: 60,
-    },
-    {
-        name: "TYPESCRIPT",
+        name: "TypeScript",
         value: 85,
     },
     {
-        name: "C/C++",
-        value: 50,
+        name: "React.js",
+        value: 90,
+    },
+    {
+        name: "Next.js",
+        value: 90,
+    },
+    {
+        name: "Angular",
+        value: 80,
+    },
+    {
+        name: "Node.js",
+        value: 75,
+    },
+    {
+        name: "Express.js",
+        value: 70,
+    },
+    {
+        name: "MongoDB",
+        value: 75,
+    },
+    {
+        name: "MySQL",
+        value: 65,
+    },
+    {
+        name: "Tailwind CSS",
+        value: 95,
     },
 ];
 
 const services = [{
-        title: "FRONTEND WEBSITES",
-        description: "Developed dynamic and responsive websites using modern front-end technologies, ensuring a seamless user experience across different devices. Successfully created user-friendly interfaces for projects like Diginotes and GSONSIndia, focusing on clear navigation and visually appealing layouts. Implemented best practices in HTML, CSS, and JavaScript to enhance accessibility, improve load times, and deliver a polished look and feel."   },
-    {
-        title: "BACKEND SCRIPTs & APIs",
-        description: "Developed robust back-end scripts to support the functionality of e-commerce stores, integrating secure payment gateways and user authentication. Designed and implemented efficient server-side solutions for projects like Diginotes, ensuring data management and access control. Focused on optimizing back-end processes to improve performance, security, and scalability across web applications.",
-    },
-    {
-        title: "PRODUCT DESIGNS",
-        description: "Engaged in designing digital product interfaces that prioritize usability and enhance the overall user journey. Created visually appealing layouts for web-based projects, such as the e-commerce store and Diginotes, ensuring consistency and brand alignment. Applied principles of user-centered design to deliver products that effectively meet client requirements and user expectations.",
-    },
-     {
-        title: "SCRIPTING",
-        description: "Developed custom scripts for automating tasks and processes within web development projects, enhancing workflow efficiency. Used scripting languages to manage data handling and back-end processes, especially in projects like the e-commerce platform. Leveraged scripting skills to streamline tasks, from database management to server-side logic, ensuring seamless integration with front-end components.",
-    },
+    title: "FRONTEND DEVELOPMENT",
+    description: "Building dynamic and responsive web applications using React, Angular, Next.js, and TypeScript. Creating user-friendly interfaces with modern design principles, ensuring seamless user experience across all devices. Implementing best practices for performance optimization, accessibility, and maintainable code architecture."
+},
+{
+    title: "BACKEND DEVELOPMENT & APIs",
+    description: "Developing robust server-side solutions using Node.js and Express.js. Building RESTful APIs, implementing secure authentication systems, and integrating payment gateways. Expertise in database design and optimization with MongoDB and MySQL, ensuring scalable and efficient data management.",
+},
+{
+    title: "FULL STACK SOLUTIONS",
+    description: "End-to-end web application development from concept to deployment. Specializing in MERN and MEAN stack development, creating e-commerce platforms, admin dashboards, and custom business solutions. Delivering production-ready applications with clean architecture and comprehensive testing.",
+},
+{
+    title: "FREELANCE PROJECTS",
+    description: "Providing custom web development services for clients worldwide. From portfolio websites to complex business applications, delivering tailored solutions that meet specific requirements. Experienced in client communication, project management, and delivering projects on time and within budget.",
+},
 ];
 
 const dataportfolio = [
     {
-        img: "./images/chatbot.png ",
-        description: " ",
-        link: "#",
+        img: "./images/youruniverse.png",
+        description: "YourUniverse - AI Character Platform",
+        category: "Web App",
+        technologies: ["React.js", "Next.js", "JavaScript", "CSS"],
+        fullDescription: "An AI-powered web platform where users can interact with AI characters through a modern and intuitive conversational interface. Features responsive UI design, smooth user experience, and scalable architecture with future backend integration in mind.",
+        link: "https://youruniverse.vercel.app",
+        status: "In Progress",
+        association: "BoffinBlocks"
     },
     {
-        img: "./images/frost.png ",
-        description: " ",
-        link: "https://frost-master.vercel.app",
+        img: "./images/gsons-new.png",
+        description: "GSONS India - Full Stack Brand Portfolio",
+        category: "Business",
+        technologies: ["React.js", "Node.js", "Express.js", "MongoDB"],
+        fullDescription: "Designed and developed a full-stack brand portfolio website for GSONS India as a solo developer. Built with the MERN stack, the platform focuses on performance, responsiveness, and modern UI design, delivering a production-ready solution for a real business client.",
+        link: "https://gsonsindia.com",
+        date: "Jan 2026 - Present"
+    },
+  
+    {
+        img: "./images/thecollegeway.png",
+        description: "JessicaWay - Business Portfolio",
+        category: "Business",
+        technologies: ["React.js", "Next.js", "Firebase", "Tailwind CSS", "emailjs"],
+        fullDescription: "Developed a full-stack business website with authentication and dynamic content management using Firebase as the backend. Focused on building a clean user interface, real-time data handling, and secure integration of backend services.",
+        link: "https://thejessicaway.com",
+        date: "Jan 2026"
     },
     {
-        img: "./images/brave_screenshot_dgnotes.vercel.app.png ",
-        description: " ",
-        link: "https://dgnotes.vercel.app",
+        img: "./images/diginotes-new.png",
+        description: "CourseHub - Online Learning Platform",
+        category: "Educational",
+        technologies: ["Next.js", "Node.js", "Express.js", "MongoDB", "React.js"],
+        fullDescription: "Built a full-stack learning platform that allows users to explore and access educational courses through a modern web interface. Implemented scalable frontend architecture using Next.js and handled backend APIs and database operations for course management.",
+        link: "https://course-hub-alpha.vercel.app",
+        date: "Oct 2025 - Nov 2025"
     },
     {
-        img: " ./images/brave_screenshot_www.gsonsindia.in.png",
-        description: " ",
-        link: "https://gsonsindia.com ",
+        img: "./images/frost.png",
+        description: "Frost - Modern Web App",
+        category: "Web App",
+        technologies: ["Next.js", "React.js", "Tailwind CSS", "Framer Motion"],
+        fullDescription: "A sleek and modern web application with stunning UI/UX design. Built with Next.js for optimal performance and featuring smooth animations and responsive design.",
+        link: "https://frost-master.vercel.app/customer/home",
     },
     {
         img: "./images/brave_screenshot_69airline.vercel.app.png",
-        description: " ",
-        link: " https://69airline.vercel.app",
+        description: "69 Airline - Booking System",
+        category: "Web App",
+        technologies: ["React.js", "Node.js", "MongoDB", "Express.js"],
+        fullDescription: "Airline ticket booking system with flight search, seat selection, and booking management. Features real-time availability updates and secure payment processing.",
+        link: "https://69airline.vercel.app",
     },
     {
-        img: "./images/brave_screenshot_bdslogistics.vercel.app.png ",
-        description: " ",
-        link: "https://bdslogistics.vercel.app ",
-    },
-  
-   
-    {
-        img: "./images/brave_screenshot_freezy.vercel.app.png ",
-        description: " ",
-        link: "https://freezy.vercel.app ",
+        img: "./images/brave_screenshot_bdslogistics.vercel.app.png",
+        description: "BDS Logistics - Business Site",
+        category: "Business",
+        technologies: ["Next.js", "React.js", "Tailwind CSS", "Framer Motion"],
+        fullDescription: "Professional business website for a logistics company showcasing services, tracking capabilities, and company information. Features modern design and smooth animations.",
+        link: "https://bdslogistics.vercel.app",
     },
     {
-        img: "./images/brave_screenshot_headsetmart.vercel.app.png ",
-        description: " ",
-        link: " https://headsetmart.vercel.app",
+        img: "./images/brave_screenshot_freezy.vercel.app.png",
+        description: "Freezy - Ice Cream Shop",
+        category: "E-commerce",
+        technologies: ["React.js", "CSS3", "JavaScript"],
+        fullDescription: "Delightful e-commerce website for an ice cream shop with product showcase, online ordering, and delivery options. Features vibrant design and smooth user experience.",
+        link: "https://freezy.vercel.app",
     },
     {
-        img: "./images/brave_screenshot_osm-mosam.netlify.app.png ",
-        description: " ",
+        img: "./images/brave_screenshot_headsetmart.vercel.app.png",
+        description: "Headset Mart - E-commerce",
+        category: "E-commerce",
+        technologies: ["React.js", "Node.js", "MongoDB", "Tailwind CSS"],
+        fullDescription: "E-commerce platform specialized in audio equipment with product filtering, reviews, and secure checkout. Includes wishlist functionality and user accounts.",
+        link: "https://headsetmart.vercel.app",
+    },
+    {
+        img: "./images/brave_screenshot_osm-mosam.netlify.app.png",
+        description: "Weather App",
+        category: "Web App",
+        technologies: ["React.js", "Weather API", "CSS3", "JavaScript"],
+        fullDescription: "Real-time weather application providing current conditions, forecasts, and weather alerts. Features location-based weather data and clean, intuitive interface.",
         link: "https://osm-mosam.netlify.app",
     },
-   
     {
-        img: " ./images/brave_screenshot_therealplace.netlify.app.png",
-        description: " ",
-        link: " https://therealplace.netlify.app",
+        img: "./images/brave_screenshot_therealplace.netlify.app.png",
+        description: "Real Estate Platform",
+        category: "Business",
+        technologies: ["React.js", "Node.js", "MongoDB", "Tailwind CSS"],
+        fullDescription: "Comprehensive real estate platform for property listings, searches, and virtual tours. Features advanced filtering, map integration, and contact management.",
+        link: "https://therealplace.netlify.app",
     },
- 
 ];
 
 const contactConfig = {
     YOUR_EMAIL: "tushar32234@gmail.com",
     YOUR_FONE: "+91 8264829755",
-    description: "Crafting digital experiences, one line of code at a time. Empowering your online presence with innovation and precision.",
+    description: "Let's build something amazing together. I'm always open to discussing new projects and opportunities.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -178,6 +227,7 @@ const socialprofils = {
     instagram: "https://instagram.com/__tushar__4369/",
     linkedin: "https://linkedin.com/in/tushar-kumar-903636280",
 };
+
 export {
     meta,
     dataabout,
